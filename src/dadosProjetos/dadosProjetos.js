@@ -69,7 +69,7 @@ let projetos = [
       sequelize
     ],
     texto: "API projetada, que está online, para enviar dados através do metodo GET sobre personagens históricos da humanidade. Possibilidade de obter resultados gerais ou filtrados através da nacionalidade e ocupação",
-    deploy: "#",
+    deploy: "https://github.com/victoramos1/api-personagens-historicos/blob/master/Endpoints.md",
     github: "https://github.com/victoramos1/api-personagens-historicos"
   },
   {
