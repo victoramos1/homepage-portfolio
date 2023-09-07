@@ -36,7 +36,7 @@ function App() {
           <div id="divTexto">
             <h5>Desenvolvedor Full-Stack</h5>
             <h1>Olá, eu sou <span style={{ color: '#03fc96', fontSize: '100px' }}>Victor</span></h1>
-            <a href="https://drive.google.com/file/d/1lThUbmzrkV6ZZGC63iVy-yIuUVx49e1F/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button id="btn">Ver currículo</button></a>
+            <a href="https://drive.google.com/file/d/1BOxh0izWf2sjdF7wlsrst1jrF8ESLmUd/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button id="btn">Ver currículo</button></a>
           </div>
         </Slide>
         <Jump >
