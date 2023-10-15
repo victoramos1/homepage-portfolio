@@ -1,5 +1,6 @@
 import "./App.css"
 import logo from "./img/logo.svg"
+import seta from "./img/seta.png"
 import github from "./img/github.svg"
 import linkedin from "./img/linkedin.png"
 import git from "./img/git.svg"
@@ -17,6 +18,7 @@ import Jump from 'react-reveal/Jump'
 import Slide from 'react-reveal/Slide'
 import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
+import Flash from 'react-reveal/Flash'
 import projetos from "./dadosProjetos/dadosProjetos"
 
 function App() {
@@ -27,8 +29,8 @@ function App() {
           <img src={logo} alt="logo do site" />
         </div>
         <div id="divContato">
-        <a href="https://www.linkedin.com/in/victor-ramos1/" target="_blank" rel="noopener noreferrer"><img src={linkedin} id="linkedin" alt="logo do site"/></a>
-        <a href="https://www.github.com/victoramos1/" target="_blank" rel="noopener noreferrer"><img src={github} id="github" alt="logo do site" /></a>
+          <a href="https://www.linkedin.com/in/victor-ramos1/" target="_blank" rel="noopener noreferrer"><img src={linkedin} id="linkedin" alt="logo do site" /></a>
+          <a href="https://www.github.com/victoramos1/" target="_blank" rel="noopener noreferrer"><img src={github} id="github" alt="logo do site" /></a>
         </div>
       </div>
       <div id="main">
@@ -44,6 +46,11 @@ function App() {
             <img src={imagemMain} alt="logo do site" />
           </div>
         </Jump>
+      </div>
+      <div id="divSeta">
+        <Flash>
+          <img src={seta} alt="seta de indicação" id="seta" />
+        </Flash>
       </div>
       <div id="divSobre">
         <Zoom>
@@ -74,7 +81,7 @@ function App() {
         {projetos.map((projeto, index) => (
           <div id="divProjeto" key={index}>
             <Fade left>
-              <img src={projeto.capa}  id="imgProjeto" alt="logo do projeto" />
+              <img src={projeto.capa} id="imgProjeto" alt="logo do projeto" />
             </Fade>
             <Fade right>
               <div id="divInfo">

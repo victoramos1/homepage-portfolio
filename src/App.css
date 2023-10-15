@@ -61,7 +61,7 @@
 
 #main {
   background-color: #182337;
-  height: 830px;
+  height: 700px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -117,6 +117,22 @@
 #divImagem img {
   width: 500px;
   height: 500px;
+}
+
+#divSeta {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #182337;
+  height:120px;
+}
+
+#seta {
+  width: 70px;
+  height: 70px;
+
+  align-items: center;
 }
 
 #divSobre {
@@ -406,7 +422,7 @@
 
 @media(min-width: 720px) and (max-width: 999px) {
   #main {
-    height: 700px;
+    height: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -494,7 +510,7 @@
 
 @media (min-width: 500px) and (max-width: 719px) {
   #main {
-    height: 700px;
+    height: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -616,7 +632,7 @@
 
 @media (min-width: 400px) and (max-width: 499px) {
   #main {
-    height: 700px;
+    height: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -744,7 +760,7 @@
 
 @media (min-width: 360px) and (max-width: 399px) {
   #main {
-    height: 700px;
+    height: 570px;
     display: flex;
     flex-direction: column;
     align-items: center;
