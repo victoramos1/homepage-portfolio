@@ -17,23 +17,6 @@ import megasena from "../img/megasena.png"
 
 let projetos = [
   {
-    titulo: "Blog de Viagens",
-    capa: blog,
-    tecnologias: [
-      react,
-      html,
-      css,
-      javascript,
-      node,
-      express,
-      sequelize,
-      mysql
-    ],
-    texto: "Blog de viagens com sistema de autenticação de login com token JWT, Sessions, acesso de funções administrativas apenas com autenticação, além possibilidade de adicionar, editar e apagar artigos, que estão salvos no MySQL e possuem integração com o Sequelize",
-    deploy: "https://victoramos1.github.io/frontend-blog/",
-    github: "https://github.com/victoramos1/backend-blog"
-  },
-  {
     titulo: "Buscador de Filmes",
     capa: filmes,
     tecnologias: [
@@ -58,19 +41,6 @@ let projetos = [
     texto: "Busca de CEP integrado diretamente com a API da Via CEP. Possui um sistema para validação e formatação de resultado, para garantir a informação correta para o(a) usuário(a)",
     deploy: "https://victoramos1.github.io/busca-cep/",
     github: "https://github.com/victoramos1/busca-cep"
-  },
-  {
-    titulo: "API de Personagens Históricos",
-    capa: api,
-    tecnologias: [
-      node,
-      express,
-      mysql,
-      sequelize
-    ],
-    texto: "API projetada, que está online, para enviar dados através do metodo GET sobre personagens históricos da humanidade. Possibilidade de obter resultados gerais ou filtrados através da nacionalidade e ocupação",
-    deploy: "https://github.com/victoramos1/api-personagens-historicos/blob/master/Endpoints.md",
-    github: "https://github.com/victoramos1/api-personagens-historicos"
   },
   {
     titulo: "Clone Homepage Starbucks",

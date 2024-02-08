@@ -71,7 +71,7 @@ function App() {
           <div id="divTextoSobre">
             <h3>Sobre</h3>
             <p>
-              Sou um profissional entusiasmado em ingressar na área T.I. Com habilidades em HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MySQL, Sequelize, Git e Docker, estou buscando meu primeiro emprego nessa área. Estou pronto para aplicar meu aprendizado e contribuir para o sucesso de uma equipe de T.I. Tenho 31 anos e estou ansioso para enfrentar novos desafios.
+              Sou um profissional entusiasmado em ingressar na área T.I. Com habilidades em HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MySQL, Sequelize e Git, estou buscando meu primeiro emprego nessa área. Estou pronto para aplicar meu aprendizado e contribuir para o sucesso de uma equipe de T.I. Tenho 31 anos e estou ansioso para enfrentar novos desafios.
             </p>
           </div>
         </Zoom>
